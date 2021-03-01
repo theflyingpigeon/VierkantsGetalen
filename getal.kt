@@ -29,5 +29,10 @@ class getal() {
         }
 
         println("$getal is ${deelbaarheid}x deelbaar door $deler")
+
+        val factor = Math.sqrt(deler.toDouble())
+        val wortel = "${factor.toInt()}√${deelbaarheid}"
+
+        println("De factor wortel van $getal is $wortel")
     }
 }
